@@ -537,7 +537,7 @@ const Home = () => {
                   </li>
                   <li className="col-md-12">
                     <div className="image">
-                      <Link to="blog-detail.html"></Link>
+                      <Link href="blog-detail.html"></Link>
                       <img alt="" src="http://placehold.it/100x100" />
                     </div>
 
@@ -554,7 +554,7 @@ const Home = () => {
                   </li>
                 </ul>
                 <p className="center">
-                  <Link to="#"className="btn btn-fullcolor" >
+                  <Link href="#"className="btn btn-fullcolor" >
                     More deals
                   </Link>
                 </p>
@@ -565,13 +565,13 @@ const Home = () => {
                 <h2 className="section-title">Activity</h2>
                 <ul className="activity">
                   <li className="col-lg-12">
-                    <Link to="#">
+                    <Link href="#">
                       <img src="http://placehold.it/70x70" alt="" />
                     </Link>
                     <div className="info">
                       <h5>
                         Sam Minnée reviewed
-                        <Link to="#">The House With No Windows</Link>
+                        <Link href="#">The House With No Windows</Link>
                       </h5>
                       <p>
                         Awesome solitary confinement, mate. Spot on. Sweet as.
@@ -580,7 +580,7 @@ const Home = () => {
                     </div>
                   </li>
                   <li className="col-lg-12">
-                    <Link to="#">
+                    <Link href="#">
                       <img src="http://placehold.it/70x70" alt="" />
                     </Link>
                     <div className="info">
